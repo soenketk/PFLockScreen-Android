@@ -363,6 +363,7 @@ public class PFLockScreenFragment extends Fragment {
                 mCodeCreateListener.onNewCodeValidationFailed();
                 titleView.setText(mConfiguration.getTitle());
                 cleanCode();
+                mCodeValidation = "";
                 return;
             }
             mCodeValidation = "";
