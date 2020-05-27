@@ -330,6 +330,7 @@ public class PFLockScreenFragment extends Fragment {
                                 } else {
                                     mLoginListener.onPinLoginFailed();
                                     errorAction();
+                                    cleanCode();
                                 }
                             }
                             if (!isCorrect && mConfiguration.isClearCodeOnError()) {
